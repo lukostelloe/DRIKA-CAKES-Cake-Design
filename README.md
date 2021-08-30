@@ -1,6 +1,3 @@
-1. create a charter graphic
-client said she likes coral colours, so colours that are soft and easy on the eye
+homepage must be edited with nice css and functionality
 
-logo
-font
-colour scheme (3 or 4 colours max)
+other pages must be created
