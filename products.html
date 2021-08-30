@@ -10,7 +10,7 @@
   </head>
   <body>
     <h2>Products Page</h2>
-    <div>
+    <div class="selectbox" id="colour">
       Colour
       <input type="color" value="#ff0000" />
       <input type="color" value="#ffffff" />
@@ -19,5 +19,56 @@
       <input type="color" value="#3333ff" />
       <input type="color" value="#33ff33" />
     </div>
+
+    <div class="selectbox" id="flavour">
+      Flavour
+      <div>
+        <input type="checkbox" id="vanillabean" name="vanillabean" />
+        <label for="scales">Vanilla Bean</label>
+      </div>
+      <div>
+        <input type="checkbox" id="chocmint" name="chocmint" />
+        <label for="scales">Chocolate Mint</label>
+      </div>
+      <div>
+        <input type="checkbox" id="mocha" name="mocha" />
+        <label for="scales">Mocha</label>
+      </div>
+      <div>
+        <input type="checkbox" id="pineapple" name="pineapple" />
+        <label for="scales">Pineapple</label>
+      </div>
+      <div>
+        <input type="checkbox" id="strawberry" name="strawberry" />
+        <label for="scales">Strawberry</label>
+      </div>
+    </div>
+    <div class="selectbox">
+      Price
+      <div>
+        <input type="checkbox" id="price1" name="100-300" />
+        <label for="scales">$100-$300</label>
+      </div>
+      <div>
+        <input type="checkbox" id="price2" name="300-500" />
+        <label for="scales">$300-$500</label>
+      </div>
+    </div>
+    <div class="selectbox">
+      Events
+      <div>
+        <input type="checkbox" id="birthday" name="birthday" />
+        <label for="scales">Birthday</label>
+      </div>
+      <div>
+        <input type="checkbox" id="marriage" name="marriage" />
+        <label for="scales">Marriage</label>
+      </div>
+      <div>
+        <input type="checkbox" id="coroporate" name="coroporate" />
+        <label for="scales">Corporate</label>
+      </div>
+    </div>
+    <div class="selectbox">Best Sellers</div>
   </body>
 </html>
